@@ -17,8 +17,8 @@
     ProductRepository productRepository = new ProductRepository();
     for (Long key : mapOrder.keySet()) {
         Map<Object, Object> map = new HashMap<>();
+        map.put("y", mapOrder.get(key)); // Use revenue as the y-axis value
         map.put("label", productRepository.getProductNameById(key));
-        map.put("y", mapOrder.get(key));
         list.add(map);
     }
 
@@ -41,8 +41,9 @@
                 subtitles: [{
                     text: "2023"
                 }],
-                axisY: {
+                axisX: {
                     title: "USD",
+                    reversed: true, // Display in descending order
                     labelFormatter: addSymbols
                 },
                 data: [{

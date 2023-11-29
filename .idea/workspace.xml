@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b21766b-2b8d-4ff1-a9f7-d4ca103502e9" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/ProductPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/ProductPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/ProductImageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/ProductImageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/ProductImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/ProductImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/ProductPriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/ProductPriceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer-page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/employee-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/employee-page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/insert-customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/insert-customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/insert-employee.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/insert-employee.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/insert-product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/insert-product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +272,7 @@
       <workItem from="1701181927025" duration="2000" />
       <workItem from="1701184831120" duration="2787000" />
       <workItem from="1701227163653" duration="133000" />
-      <workItem from="1701239770785" duration="2625000" />
+      <workItem from="1701239770785" duration="3274000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -298,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701060772667</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <option name="closed" value="true" />
+      <created>1701242632740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701242632740</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
