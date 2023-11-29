@@ -4,88 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b21766b-2b8d-4ff1-a9f7-d4ca103502e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/configs/ConfigCors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/configs/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/controllers/AddToCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/controllers/CheckOutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/controllers/QuantityIncDecServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/controllers/RemoveFromCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/controllers/ServletController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/converters/EmployeeStatusConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/converters/LocalDateTimeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/converters/LocalDateTimeConverterProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/converters/ObjectMapperContextResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/converters/ProductStatusConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/dto/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/enums/EmployeeStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/enums/ProductStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/CustomerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/EmployeeModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/ProductImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/ProductModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/ProductPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/ConnectDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/OrderDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/ProductImageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/ProductPriceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/resources/CustomerResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/resources/EmployeeResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/OrderDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/ProductImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/ProductPriceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/test/HelloResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/test/TestMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/cdn.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer-page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/employee-page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/product_img_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/product_img_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/product_img_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/product_img_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/product_img_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/product_img_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/product_img_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/product_img_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/product_img_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/product_img_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/insert-customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/insert-employee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/insert-product.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/orders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/product-page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/update-customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/update-employee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/update-product.jsp" afterDir="false" />
+    <list default="true" id="2b21766b-2b8d-4ff1-a9f7-d4ca103502e9" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/ProductPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/models/ProductPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/ProductImageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/ProductImageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/ProductImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/ProductImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/ProductPriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/services/ProductPriceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/employee-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/employee-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/insert-customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/insert-customer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/insert-employee.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/insert-employee.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/insert-product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/insert-product.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +39,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -109,8 +51,18 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/repositories/EmployeeRepository.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -118,6 +70,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -149,14 +104,50 @@
       <recent name="D:\Ki 1_nam 2023-2024\www\Week02\www_DoanHoaiAn_week02_Restapi\src\main\webapp" />
       <recent name="D:\Ki 1_nam 2023-2024\www\Week02\www_DoanHoaiAn_week02_Restapi\src\main\java\com\example\www_doanhoaian_week02_restapi" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.www_doanhoaian_week02_restapi.repositories" />
+    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.1510">
+  <component name="RunManager" selected="Gradle.www_DoanHoaiAn_week02_Restapi">
+    <configuration name="DatabaseLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.www_doanhoaian_week02_restapi.loader.DatabaseLoader" />
+      <module name="www_DoanHoaiAn_week02_Restapi.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.www_doanhoaian_week02_restapi.loader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/gradle-8.3" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="C:/gradle-8.3" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="www_DoanHoaiAn_week02_Restapi" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -265,13 +256,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DatabaseLoader" />
       <item itemvalue="Gradle.C:/gradle-8.3" />
+      <item itemvalue="Gradle.www_DoanHoaiAn_week02_Restapi" />
       <item itemvalue="HTTP Request.generated-requests | #21" />
       <item itemvalue="HTTP Request.generated-requests | #22" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.1510" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.www_DoanHoaiAn_week02_Restapi" />
+        <item itemvalue="Application.DatabaseLoader" />
         <item itemvalue="HTTP Request.generated-requests | #22" />
         <item itemvalue="HTTP Request.generated-requests | #21" />
       </list>
@@ -287,26 +282,41 @@
       <updated>1700968970533</updated>
       <workItem from="1700968971528" duration="2327000" />
       <workItem from="1701057751418" duration="1965000" />
-      <workItem from="1701059740365" duration="871000" />
+      <workItem from="1701059740365" duration="3084000" />
+      <workItem from="1701062915488" duration="958000" />
+      <workItem from="1701177029584" duration="4778000" />
+      <workItem from="1701181927025" duration="2000" />
+      <workItem from="1701184831120" duration="2787000" />
+      <workItem from="1701227163653" duration="133000" />
+      <workItem from="1701239770785" duration="2625000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1701060772667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701060772667</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/www_doanhoaian_week02_restapi/configs/ConfigCors.java</url>
-          <line>28</line>
-          <properties class="com.example.www_doanhoaian_week02_restapi.configs.ConfigCors" method="destroy">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

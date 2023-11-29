@@ -62,6 +62,18 @@ public class Product {
         this.description = description;
     }
 
+    public Product(String unit, ProductStatus productStatus, String manufacturer, String name, String description, long id, List<OrderDetail> orderDetails, List<ProductImage> productImageList, List<ProductPrice> productPrices) {
+        this.unit = unit;
+        this.productStatus = productStatus;
+        this.manufacturer = manufacturer;
+        this.name = name;
+        this.description = description;
+        this.id = id;
+        this.orderDetails = orderDetails;
+        this.productImageList = productImageList;
+        this.productPrices = productPrices;
+    }
+
     public Product(long productId) {
     }
 

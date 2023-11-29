@@ -1,10 +1,10 @@
 <%@ page import="java.text.DecimalFormat" %>
-<%@ page import="com.example.www_doanhoaian_week02_restapi.dto.Cart" %>
+
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="java.util.List" %>
+<%@ page import="com.example.www_doanhoaian_week02_restapi.models.Product" %>
+<%@ page import="com.example.www_doanhoaian_week02_restapi.dto.Cart" %>
 <%@ page import="com.example.www_doanhoaian_week02_restapi.repositories.ProductRepository" %>
-
-
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>

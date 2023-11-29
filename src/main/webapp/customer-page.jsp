@@ -33,9 +33,10 @@
     <table class="table table-bordered table-responsive">
         <thead class="table-dark">
         <tr>
+            <th>Name</th>
             <th>Address</th>
             <th>Email</th>
-            <th>Name</th>
+
             <th>Phone</th>
             <th>Delete</th>
             <th>Edit</th>
@@ -50,12 +51,13 @@
 
         %>
         <tr>
+            <td><%= customer.getName() %>
+            </td>
             <td><%= customer.getAddress() %>
             </td>
             <td><%= customer.getEmail() %>
             </td>
-            <td><%= customer.getName() %>
-            </td>
+
             <td><%= customer.getPhone()%>
             </td>
             <td>

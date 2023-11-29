@@ -1,9 +1,8 @@
-
+<%@ page import="java.util.List" %>
 <%@ page import="com.example.www_doanhoaian_week02_restapi.services.ProductService" %>
 <%@ page import="com.example.www_doanhoaian_week02_restapi.models.Product" %>
 <%@ page import="com.example.www_doanhoaian_week02_restapi.services.ProductImageService" %>
 <%@ page import="com.example.www_doanhoaian_week02_restapi.services.ProductPriceService" %>
-<%@ page import="java.util.List" %>
 
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>

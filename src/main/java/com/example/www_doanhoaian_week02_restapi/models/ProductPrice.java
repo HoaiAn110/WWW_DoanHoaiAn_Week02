@@ -43,7 +43,7 @@ public class ProductPrice {
         this.product = product;
     }
 
-    public LocalDateTime getPriceDateTime() {
+    public LocalDateTime getPriceDateTime(LocalDateTime now) {
         return priceDateTime;
     }
 

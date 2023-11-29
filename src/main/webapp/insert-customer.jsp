@@ -21,13 +21,14 @@
                     <p class="fs-3 text-center">Add Customer</p>
                     <form action="controls?action=insertCustomer" method="post">
                         <div class="mb-3">
-                            <label class="form-label">Email: </label>
-                            <input type="email" class="form-control" name="email">
-                        </div>
-                        <div class="mb-3">
                             <label class="form-label">Name: </label>
                             <input type="text" class="form-control" name="name">
                         </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email: </label>
+                            <input type="email" class="form-control" name="email">
+                        </div>
+
                         <div class="mb-3">
                             <label class="form-label">Phone: </label> <input
                                 type="text" class="form-control" name="phone">

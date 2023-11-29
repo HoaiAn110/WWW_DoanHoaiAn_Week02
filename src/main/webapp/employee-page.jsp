@@ -1,8 +1,9 @@
 
+<%@ page import="java.util.List" %>
+
 <%@ page import="java.time.format.DateTimeFormatter" %>
 <%@ page import="com.example.www_doanhoaian_week02_restapi.services.EmployeeService" %>
-<%@ page import="com.example.www_doanhoaian_week02_restapi.models.Employee" %>
-<%@ page import="java.util.List" %><%--
+<%@ page import="com.example.www_doanhoaian_week02_restapi.models.Employee" %><%--
   Created by IntelliJ IDEA.
   User: bac
   Date: 28/09/2023
@@ -34,11 +35,12 @@
         <table class="table table-bordered table-responsive">
             <thead class="table-dark">
             <tr>
+                <th>Full name</th>
                 <th>Address</th>
                 <th>Date of birth</th>
                 <th>Email</th>
                 <th>Status</th>
-                <th>Full name</th>
+
                 <th>Phone</th>
                 <th>Delete</th>
                 <th>Edit</th>
@@ -52,11 +54,12 @@
                     String delete = "controls?action=delete_employee&id=" + employee.getId();
             %>
             <tr>
+                <td><%= employee.getFullName() %></td>
                 <td><%= employee.getAddress() %></td>
                 <td><%= employee.getDob().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) %></td>
                 <td><%= employee.getEmail() %></td>
                 <td><%= employee.getEmployeeStatus()%></td>
-                <td><%= employee.getFullName() %></td>
+
                 <td><%= employee.getPhone() %></td>
                 <td>
                     <a class="btn btn-danger" href=<%=delete%>>

@@ -19,6 +19,10 @@
             <div class="card">
                 <div class="card-body">
                     <p class="fs-3 text-center">Add Product</p>
+                    <div class="mb-3">
+                        <label class="form-label">Product Name: </label> <input
+                            type="text" class="form-control" name="name">
+                    </div>
                     <form action="controls?action=insertProduct" method="post">
                         <div class="mb-3">
                             <label class="form-label">Description </label>
@@ -28,10 +32,7 @@
                             <label class="form-label">Manufacturer Name: </label>
                             <input type="text" class="form-control" name="manu">
                         </div>
-                        <div class="mb-3">
-                            <label class="form-label">Product Name: </label> <input
-                                type="text" class="form-control" name="name">
-                        </div>
+
                         <div class="mb-3">
                             <label class="form-label">Unit: </label> <input
                                 type="text" class="form-control" name="unit">

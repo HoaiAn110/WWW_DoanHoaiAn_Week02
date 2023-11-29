@@ -1,6 +1,7 @@
 package com.example.www_doanhoaian_week02_restapi.repositories;
 
 
+import com.example.www_doanhoaian_week02_restapi.models.Product;
 import com.example.www_doanhoaian_week02_restapi.models.ProductImage;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
@@ -20,5 +21,18 @@ public class ProductImageRepository {
        return em.createNamedQuery("ProductImage.getImage", ProductImage.class)
                 .setParameter("id",productId)
                 .getSingleResult();
+    }
+
+
+
+    public void insertProductImage(ProductImage productImage) {
+        try {
+            transaction.begin();
+            em.persist(productImage);
+            transaction.commit();
+        } catch (Exception ex) {
+            transaction.rollback();
+            logger.error(ex.getMessage());
+        }
     }
 }

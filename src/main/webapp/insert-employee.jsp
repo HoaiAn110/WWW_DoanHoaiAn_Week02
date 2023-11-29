@@ -21,6 +21,10 @@
                     <p class="fs-3 text-center">Add Employee</p>
                     <form action="controls?action=insertEmployee" method="post">
                         <div class="mb-3">
+                            <label class="form-label">Full Name: </label> <input
+                                type="text" class="form-control" name="name">
+                        </div>
+                        <div class="mb-3">
                             <label class="form-label">Date of birth: </label>
                             <input type="date" class="form-control" name="dob">
                         </div>
@@ -28,10 +32,7 @@
                             <label class="form-label">Email: </label>
                             <input type="email" class="form-control" name="email">
                         </div>
-                        <div class="mb-3">
-                            <label class="form-label">Full Name: </label> <input
-                                type="text" class="form-control" name="name">
-                        </div>
+
                         <div class="mb-3">
                             <label class="form-label">Phone: </label> <input
                                 type="text" class="form-control" name="phone">
